@@ -1,0 +1,17 @@
+﻿using System;
+
+namespace CSLearn
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int age;
+            string input = "15";
+
+            age = Convert.ToInt32(input); // Converting string to int
+            Console.WriteLine(age);
+
+        }
+    }
+}
