@@ -1,0 +1,7 @@
+E:\Scripts\Csharp-Practice\csharp-learn\obj\Debug\csharp-learn.csproj.AssemblyReference.cache
+E:\Scripts\Csharp-Practice\csharp-learn\obj\Debug\csharp-learn.csproj.CoreCompileInputs.cache
+E:\Scripts\Csharp-Practice\csharp-learn\bin\Debug\csharp-learn.exe.config
+E:\Scripts\Csharp-Practice\csharp-learn\bin\Debug\csharp-learn.exe
+E:\Scripts\Csharp-Practice\csharp-learn\bin\Debug\csharp-learn.pdb
+E:\Scripts\Csharp-Practice\csharp-learn\obj\Debug\csharp-learn.exe
+E:\Scripts\Csharp-Practice\csharp-learn\obj\Debug\csharp-learn.pdb

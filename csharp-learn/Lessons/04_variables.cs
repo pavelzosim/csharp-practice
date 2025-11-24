@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace CSLearn
+namespace csharp_learn
 {
-    internal class Program
+    internal class Lesson04
     {
         static void Main(string[] args)
         {

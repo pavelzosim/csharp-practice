@@ -1,0 +1,44 @@
+## 1. Project Creation
+
+1. Open **Visual Studio** or **VS Code terminal**.
+2. Select **Console App (.NET Core)** as the project type.
+
+## 2. Adding Items, Classes, and Namespaces
+
+1. Each `.cs` file is an **Item**.  
+   - Add via right‑click → *Add → Class…* or hotkey **Shift+Alt+A**.  
+   - File will appear in the project and must also be listed in `.csproj` with its path, e.g.:
+     ```xml
+     <Compile Include="cs\Lesson11.cs" />
+     ```
+
+2. **Class names**  
+   - Each file should contain one class, e.g. `Lesson11`.  
+   - It is easier to manage if class names are consistent with what you call in `Program.cs`.
+
+3. **Namespaces**  
+   - All files must share the same namespace (e.g. `csharp_learn`).  
+   - This ensures that `Program.cs` can access all lesson classes without errors.
+
+4. **Program.cs control**  
+   - In `Program.cs`, call the lesson you want to run:
+     ```csharp
+     Lesson11.Run();
+     ```
+   - Switch between lessons by changing the class name.
+
+
+## 3. Running the Project
+
+1. Open the console for your environment:
+   - In **Visual Studio**: press **Ctrl+F5** or click *Run* to start without debugging.
+   - In **VS Code**: open the integrated terminal and run:
+     ```bash
+     dotnet run
+     ```
+
+2. The program will execute `Program.cs` and call the selected lesson method (e.g. `Lesson11.Run()`).
+
+3. To switch lessons, just change the method call in `Program.cs`:
+   ```csharp
+   Lesson09.Run();
