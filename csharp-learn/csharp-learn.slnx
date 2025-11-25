@@ -1,6 +1,4 @@
 <Solution>
-  <Folder Name="/Solution Items/">
-    <File Path="Lessons/04_variables.cs" />
-  </Folder>
+  <Folder Name="/Solution Items/" />
   <Project Path="csharp-learn.csproj" Id="38fb22ab-ffdd-4677-8005-2986ee9a4a5e" />
 </Solution>

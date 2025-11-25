@@ -14,7 +14,13 @@ namespace csharp_learn
             //Lesson09.Run();
             //Lesson10.Run();
             //Lesson11.Run();
-            Lesson12.Run();
+            //Lesson12.Run();
+            //Practice13.Run();
+            //Practice13_Shop.Run();
+            //Lesson14.Run();
+            //Practice17.Run();
+            Practice17_switch.Run();
+
         }
     }
 }
