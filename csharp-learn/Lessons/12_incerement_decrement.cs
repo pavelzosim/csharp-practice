@@ -4,7 +4,7 @@ namespace csharp_learn
 {
     // LESSON 12: Increment and Decrement Operators
     // Learn the difference between prefix (++i) and postfix (i++) operators
-    internal class Lesson12
+    internal class Lesson12_incerement_decrement
     {
         public static void Run()
         {

@@ -4,7 +4,7 @@ namespace csharp_learn
 {
     // LESSON 09: String Interpolation and Concatenation
     // Learn two different ways to build text output: concatenation (+) and interpolation ($"")
-    internal class Lesson09
+    internal class Lesson09_interpolation_concatination
     {
         public static void Run()
         {

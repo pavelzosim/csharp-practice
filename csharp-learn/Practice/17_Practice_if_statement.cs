@@ -2,7 +2,7 @@
 
 namespace csharp_learn
 {
-    internal class Practice17
+    internal class Practice17_if_statement
     {
         public static void Run()
         {

@@ -4,7 +4,7 @@ namespace csharp_learn
 {
     // LESSON 04: Variables and Arithmetic Operations
     // Learn about data types, variable declarations, and arithmetic operations with optimization tips
-    internal class Lesson04
+    internal class Lesson04_variables_arithmetic_operations
     {
         public static void Run()
         {

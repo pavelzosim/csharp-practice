@@ -4,7 +4,7 @@ namespace csharp_learn
 {
     // LESSON 16: Switch Statement
     // Learn when and how to use switch for cleaner multi-condition code
-    internal class Lesson16
+    internal class Lesson16_switch
     {
         public static void Run()
         {

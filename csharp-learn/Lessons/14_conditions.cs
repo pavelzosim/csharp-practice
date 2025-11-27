@@ -4,7 +4,7 @@ namespace csharp_learn
 {
     // LESSON 14: Conditional Statements (if/else/else if)
     // Learn how to make decisions in your code based on conditions
-    internal class Lesson14
+    internal class Lesson14_conditionss
     {
         public static void Run()
         {

@@ -4,7 +4,7 @@ namespace csharp_learn
 {
     // LESSON 10: Type Conversion
     // Learn how to convert between different data types (strings to numbers, etc.)
-    internal class Lesson10
+    internal class Lesson10_conversion
     {
         public static void Run()
         {

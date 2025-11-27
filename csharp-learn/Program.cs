@@ -10,16 +10,11 @@ namespace csharp_learn
     {
         static void Main(string[] args)
         {
-            //Lesson04.Run();
-            //Lesson09.Run();
-            //Lesson10.Run();
-            //Lesson11.Run();
-            //Lesson12.Run();
-            //Practice13.Run();
-            //Practice13_Shop.Run();
-            //Lesson14.Run();
-            //Practice17.Run();
-            Practice17_switch.Run();
+            //Lesson04_variables_arithmetic_operations.Run();
+            //Lesson09_interpolation_concatination
+            //Practice23_random_fight.Run();
+            //Lesson25_arrays.Run();
+            Practice26_array.Run();
 
         }
     }
