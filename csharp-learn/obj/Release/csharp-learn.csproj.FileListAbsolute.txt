@@ -1,0 +1,7 @@
+E:\Scripts\Csharp-Practice\csharp-learn\bin\Release\csharp-learn.exe.config
+E:\Scripts\Csharp-Practice\csharp-learn\bin\Release\csharp-learn.exe
+E:\Scripts\Csharp-Practice\csharp-learn\bin\Release\csharp-learn.pdb
+E:\Scripts\Csharp-Practice\csharp-learn\obj\Release\csharp-learn.csproj.AssemblyReference.cache
+E:\Scripts\Csharp-Practice\csharp-learn\obj\Release\csharp-learn.csproj.CoreCompileInputs.cache
+E:\Scripts\Csharp-Practice\csharp-learn\obj\Release\csharp-learn.exe
+E:\Scripts\Csharp-Practice\csharp-learn\obj\Release\csharp-learn.pdb

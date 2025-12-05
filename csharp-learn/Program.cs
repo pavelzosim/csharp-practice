@@ -14,7 +14,12 @@ namespace csharp_learn
             //Lesson09_interpolation_concatination
             //Practice23_random_fight.Run();
             //Lesson25_arrays.Run();
-            Practice26_array.Run();
+            //Practice26_array.Run();
+            //Practice26_array2.Run();
+            //Lesson27_arrays_matrix.Run();
+            //Practice28_array_maticies.Run();
+            //Practice31_Practice_Game.Run();
+            Lesson34_functions.Run();
 
         }
     }

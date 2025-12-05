@@ -22,6 +22,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -47,6 +48,9 @@
     <Compile Include="Lessons\09_interpolation_concatination.cs" />
     <Compile Include="Lessons\10_conversion.cs" />
     <Compile Include="Lessons\12_incerement_decrement.cs" />
+    <Compile Include="Lessons\27_arrays_matrix.cs" />
+    <Compile Include="Lessons\34_functions.cs" />
+    <Compile Include="Lessons\37_ref_out.cs" />
     <Compile Include="Practice\13_Practice_HeroDamage.cs" />
     <Compile Include="Practice\13_Practice_Shop.cs" />
     <Compile Include="Lessons\14_conditions.cs" />
@@ -61,6 +65,9 @@
     <Compile Include="Practice\23_Practice_random_fight.cs" />
     <Compile Include="Lessons\25_arrays.cs" />
     <Compile Include="Practice\26_Practice_array.cs" />
+    <Compile Include="Practice\26_Practice_array2.cs" />
+    <Compile Include="Practice\28_Practice_matrixes_libraries.cs" />
+    <Compile Include="Practice\31_Practice_Game.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Lessons\11_console_command.cs" />

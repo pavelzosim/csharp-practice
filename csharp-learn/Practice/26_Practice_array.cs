@@ -10,6 +10,7 @@ namespace csharp_learn
             int[] array = { 2, 3, 4, 7, 8 };
             int sum = 0;
             int maxElement;
+            
             for (int i = 0; i < array.Length; i++)
             {
                 Console.WriteLine($"Element at index {i}: {array[i]}");
@@ -18,6 +19,7 @@ namespace csharp_learn
                 
                 sum += array[i];
             }
+
             Console.WriteLine($"Sum of array elements: {sum}");
         }
     }
