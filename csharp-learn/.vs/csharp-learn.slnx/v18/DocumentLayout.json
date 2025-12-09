@@ -3,32 +3,48 @@
   "WorkspaceRootPath": "E:\\Scripts\\Csharp-Practice\\csharp-learn\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{38FB22AB-FFDD-4677-8005-2986EE9A4A5E}|csharp-learn.csproj|e:\\scripts\\csharp-practice\\csharp-learn\\lessons\\37_ref_out.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38FB22AB-FFDD-4677-8005-2986EE9A4A5E}|csharp-learn.csproj|solutionrelative:lessons\\37_ref_out.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{38FB22AB-FFDD-4677-8005-2986EE9A4A5E}|csharp-learn.csproj|e:\\scripts\\csharp-practice\\csharp-learn\\practice\\40_practice_pacman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38FB22AB-FFDD-4677-8005-2986EE9A4A5E}|csharp-learn.csproj|solutionrelative:practice\\40_practice_pacman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38FB22AB-FFDD-4677-8005-2986EE9A4A5E}|csharp-learn.csproj|e:\\scripts\\csharp-practice\\csharp-learn\\lessons\\34_functions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38FB22AB-FFDD-4677-8005-2986EE9A4A5E}|csharp-learn.csproj|solutionrelative:lessons\\34_functions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{38FB22AB-FFDD-4677-8005-2986EE9A4A5E}|csharp-learn.csproj|E:\\Scripts\\Csharp-Practice\\csharp-learn\\practice\\17_practice_switch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38FB22AB-FFDD-4677-8005-2986EE9A4A5E}|csharp-learn.csproj|solutionrelative:practice\\17_practice_switch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{38FB22AB-FFDD-4677-8005-2986EE9A4A5E}|csharp-learn.csproj|E:\\Scripts\\Csharp-Practice\\csharp-learn\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{38FB22AB-FFDD-4677-8005-2986EE9A4A5E}|csharp-learn.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38FB22AB-FFDD-4677-8005-2986EE9A4A5E}|csharp-learn.csproj|E:\\Scripts\\Csharp-Practice\\csharp-learn\\lessons\\27_arrays_matrix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38FB22AB-FFDD-4677-8005-2986EE9A4A5E}|csharp-learn.csproj|solutionrelative:lessons\\27_arrays_matrix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{38FB22AB-FFDD-4677-8005-2986EE9A4A5E}|csharp-learn.csproj|E:\\Scripts\\Csharp-Practice\\csharp-learn\\practice\\38_practice_healthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38FB22AB-FFDD-4677-8005-2986EE9A4A5E}|csharp-learn.csproj|solutionrelative:practice\\38_practice_healthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38FB22AB-FFDD-4677-8005-2986EE9A4A5E}|csharp-learn.csproj|e:\\scripts\\csharp-practice\\csharp-learn\\practice\\13_practice_herodamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38FB22AB-FFDD-4677-8005-2986EE9A4A5E}|csharp-learn.csproj|solutionrelative:practice\\13_practice_herodamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{38FB22AB-FFDD-4677-8005-2986EE9A4A5E}|csharp-learn.csproj|E:\\Scripts\\Csharp-Practice\\csharp-learn\\practice\\28_practice_matrixes_libraries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38FB22AB-FFDD-4677-8005-2986EE9A4A5E}|csharp-learn.csproj|solutionrelative:practice\\28_practice_matrixes_libraries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{38FB22AB-FFDD-4677-8005-2986EE9A4A5E}|csharp-learn.csproj|E:\\Scripts\\Csharp-Practice\\csharp-learn\\practice\\31_practice_game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{38FB22AB-FFDD-4677-8005-2986EE9A4A5E}|csharp-learn.csproj|solutionrelative:practice\\31_practice_game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38FB22AB-FFDD-4677-8005-2986EE9A4A5E}|csharp-learn.csproj|E:\\Scripts\\Csharp-Practice\\csharp-learn\\practice\\28_practice_matrixes_libraries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38FB22AB-FFDD-4677-8005-2986EE9A4A5E}|csharp-learn.csproj|solutionrelative:practice\\28_practice_matrixes_libraries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{38FB22AB-FFDD-4677-8005-2986EE9A4A5E}|csharp-learn.csproj|E:\\Scripts\\Csharp-Practice\\csharp-learn\\lessons\\38_method_overloading .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38FB22AB-FFDD-4677-8005-2986EE9A4A5E}|csharp-learn.csproj|solutionrelative:lessons\\38_method_overloading .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38FB22AB-FFDD-4677-8005-2986EE9A4A5E}|csharp-learn.csproj|E:\\Scripts\\Csharp-Practice\\csharp-learn\\lessons\\37_ref_out.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38FB22AB-FFDD-4677-8005-2986EE9A4A5E}|csharp-learn.csproj|solutionrelative:lessons\\37_ref_out.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38FB22AB-FFDD-4677-8005-2986EE9A4A5E}|csharp-learn.csproj|E:\\Scripts\\Csharp-Practice\\csharp-learn\\lessons\\34_functions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38FB22AB-FFDD-4677-8005-2986EE9A4A5E}|csharp-learn.csproj|solutionrelative:lessons\\34_functions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38FB22AB-FFDD-4677-8005-2986EE9A4A5E}|csharp-learn.csproj|E:\\Scripts\\Csharp-Practice\\csharp-learn\\lessons\\27_arrays_matrix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38FB22AB-FFDD-4677-8005-2986EE9A4A5E}|csharp-learn.csproj|solutionrelative:lessons\\27_arrays_matrix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38FB22AB-FFDD-4677-8005-2986EE9A4A5E}|csharp-learn.csproj|E:\\Scripts\\Csharp-Practice\\csharp-learn\\practice\\13_practice_herodamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38FB22AB-FFDD-4677-8005-2986EE9A4A5E}|csharp-learn.csproj|solutionrelative:practice\\13_practice_herodamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{38FB22AB-FFDD-4677-8005-2986EE9A4A5E}|csharp-learn.csproj|E:\\Scripts\\Csharp-Practice\\csharp-learn\\lessons\\25_arrays.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -49,7 +65,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -57,46 +73,56 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "37_ref_out.cs",
-              "DocumentMoniker": "E:\\Scripts\\Csharp-Practice\\csharp-learn\\Lessons\\37_ref_out.cs",
-              "RelativeDocumentMoniker": "Lessons\\37_ref_out.cs",
-              "ToolTip": "E:\\Scripts\\Csharp-Practice\\csharp-learn\\Lessons\\37_ref_out.cs",
-              "RelativeToolTip": "Lessons\\37_ref_out.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T12:45:07.337Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "34_functions.cs",
-              "DocumentMoniker": "E:\\Scripts\\Csharp-Practice\\csharp-learn\\Lessons\\34_functions.cs",
-              "RelativeDocumentMoniker": "Lessons\\34_functions.cs",
-              "ToolTip": "E:\\Scripts\\Csharp-Practice\\csharp-learn\\Lessons\\34_functions.cs",
-              "RelativeToolTip": "Lessons\\34_functions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "17_Practice_switch.cs",
+              "DocumentMoniker": "E:\\Scripts\\Csharp-Practice\\csharp-learn\\Practice\\17_Practice_switch.cs",
+              "RelativeDocumentMoniker": "Practice\\17_Practice_switch.cs",
+              "ToolTip": "E:\\Scripts\\Csharp-Practice\\csharp-learn\\Practice\\17_Practice_switch.cs",
+              "RelativeToolTip": "Practice\\17_Practice_switch.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T10:54:27.392Z",
+              "WhenOpened": "2025-12-09T15:26:32.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "40_Practice_PacMan.cs",
+              "DocumentMoniker": "E:\\Scripts\\Csharp-Practice\\csharp-learn\\Practice\\40_Practice_PacMan.cs",
+              "RelativeDocumentMoniker": "Practice\\40_Practice_PacMan.cs",
+              "ToolTip": "E:\\Scripts\\Csharp-Practice\\csharp-learn\\Practice\\40_Practice_PacMan.cs",
+              "RelativeToolTip": "Practice\\40_Practice_PacMan.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T12:20:14.076Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "13_Practice_HeroDamage.cs",
-              "DocumentMoniker": "E:\\Scripts\\Csharp-Practice\\csharp-learn\\Practice\\13_Practice_HeroDamage.cs",
-              "RelativeDocumentMoniker": "Practice\\13_Practice_HeroDamage.cs",
-              "ToolTip": "E:\\Scripts\\Csharp-Practice\\csharp-learn\\Practice\\13_Practice_HeroDamage.cs",
-              "RelativeToolTip": "Practice\\13_Practice_HeroDamage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "38_Practice_healthbar.cs",
+              "DocumentMoniker": "E:\\Scripts\\Csharp-Practice\\csharp-learn\\Practice\\38_Practice_healthbar.cs",
+              "RelativeDocumentMoniker": "Practice\\38_Practice_healthbar.cs",
+              "ToolTip": "E:\\Scripts\\Csharp-Practice\\csharp-learn\\Practice\\38_Practice_healthbar.cs",
+              "RelativeToolTip": "Practice\\38_Practice_healthbar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T13:25:56.385Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-09T11:10:00.125Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "38_method_overloading .cs",
+              "DocumentMoniker": "E:\\Scripts\\Csharp-Practice\\csharp-learn\\Lessons\\38_method_overloading .cs",
+              "RelativeDocumentMoniker": "Lessons\\38_method_overloading .cs",
+              "ToolTip": "E:\\Scripts\\Csharp-Practice\\csharp-learn\\Lessons\\38_method_overloading .cs",
+              "RelativeToolTip": "Lessons\\38_method_overloading .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-09T11:06:53.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "28_Practice_matrixes_libraries.cs",
               "DocumentMoniker": "E:\\Scripts\\Csharp-Practice\\csharp-learn\\Practice\\28_Practice_matrixes_libraries.cs",
               "RelativeDocumentMoniker": "Practice\\28_Practice_matrixes_libraries.cs",
@@ -108,7 +134,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Scripts\\Csharp-Practice\\csharp-learn\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\Scripts\\Csharp-Practice\\csharp-learn\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-28T12:44:06.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "37_ref_out.cs",
+              "DocumentMoniker": "E:\\Scripts\\Csharp-Practice\\csharp-learn\\Lessons\\37_ref_out.cs",
+              "RelativeDocumentMoniker": "Lessons\\37_ref_out.cs",
+              "ToolTip": "E:\\Scripts\\Csharp-Practice\\csharp-learn\\Lessons\\37_ref_out.cs",
+              "RelativeToolTip": "Lessons\\37_ref_out.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T12:45:07.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "31_Practice_Game.cs",
+              "DocumentMoniker": "E:\\Scripts\\Csharp-Practice\\csharp-learn\\Practice\\31_Practice_Game.cs",
+              "RelativeDocumentMoniker": "Practice\\31_Practice_Game.cs",
+              "ToolTip": "E:\\Scripts\\Csharp-Practice\\csharp-learn\\Practice\\31_Practice_Game.cs",
+              "RelativeToolTip": "Practice\\31_Practice_Game.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T10:38:20.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "13_Practice_HeroDamage.cs",
+              "DocumentMoniker": "E:\\Scripts\\Csharp-Practice\\csharp-learn\\Practice\\13_Practice_HeroDamage.cs",
+              "RelativeDocumentMoniker": "Practice\\13_Practice_HeroDamage.cs",
+              "ToolTip": "E:\\Scripts\\Csharp-Practice\\csharp-learn\\Practice\\13_Practice_HeroDamage.cs",
+              "RelativeToolTip": "Practice\\13_Practice_HeroDamage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T13:25:56.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "34_functions.cs",
+              "DocumentMoniker": "E:\\Scripts\\Csharp-Practice\\csharp-learn\\Lessons\\34_functions.cs",
+              "RelativeDocumentMoniker": "Lessons\\34_functions.cs",
+              "ToolTip": "E:\\Scripts\\Csharp-Practice\\csharp-learn\\Lessons\\34_functions.cs",
+              "RelativeToolTip": "Lessons\\34_functions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-05T10:54:27.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Microsoft.Common.CurrentVersion.targets",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
@@ -118,20 +204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\Scripts\\Csharp-Practice\\csharp-learn\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "E:\\Scripts\\Csharp-Practice\\csharp-learn\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBUAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T12:44:06.312Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "25_arrays.cs",
               "DocumentMoniker": "E:\\Scripts\\Csharp-Practice\\csharp-learn\\Lessons\\25_arrays.cs",
               "RelativeDocumentMoniker": "Lessons\\25_arrays.cs",
@@ -143,7 +216,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "27_arrays_matrix.cs",
               "DocumentMoniker": "E:\\Scripts\\Csharp-Practice\\csharp-learn\\Lessons\\27_arrays_matrix.cs",
               "RelativeDocumentMoniker": "Lessons\\27_arrays_matrix.cs",
@@ -151,24 +224,11 @@
               "RelativeToolTip": "Lessons\\27_arrays_matrix.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T11:56:50.215Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-28T11:56:50.215Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "31_Practice_Game.cs",
-              "DocumentMoniker": "E:\\Scripts\\Csharp-Practice\\csharp-learn\\Practice\\31_Practice_Game.cs",
-              "RelativeDocumentMoniker": "Practice\\31_Practice_Game.cs",
-              "ToolTip": "E:\\Scripts\\Csharp-Practice\\csharp-learn\\Practice\\31_Practice_Game.cs",
-              "RelativeToolTip": "Practice\\31_Practice_Game.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T10:38:20.973Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "26_Practice_array2.cs",
               "DocumentMoniker": "E:\\Scripts\\Csharp-Practice\\csharp-learn\\Practice\\26_Practice_array2.cs",
               "RelativeDocumentMoniker": "Practice\\26_Practice_array2.cs",

@@ -19,7 +19,9 @@ namespace csharp_learn
             //Lesson27_arrays_matrix.Run();
             //Practice28_array_maticies.Run();
             //Practice31_Practice_Game.Run();
-            Lesson34_functions.Run();
+            //Lesson34_functions.Run();
+            //Practice38_Practice_Healthbar.Run();
+            Practice40_PacMan.Run();
 
         }
     }

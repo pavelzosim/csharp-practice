@@ -51,6 +51,7 @@
     <Compile Include="Lessons\27_arrays_matrix.cs" />
     <Compile Include="Lessons\34_functions.cs" />
     <Compile Include="Lessons\37_ref_out.cs" />
+    <Compile Include="Lessons\38_method_overloading .cs" />
     <Compile Include="Practice\13_Practice_HeroDamage.cs" />
     <Compile Include="Practice\13_Practice_Shop.cs" />
     <Compile Include="Lessons\14_conditions.cs" />
@@ -68,6 +69,8 @@
     <Compile Include="Practice\26_Practice_array2.cs" />
     <Compile Include="Practice\28_Practice_matrixes_libraries.cs" />
     <Compile Include="Practice\31_Practice_Game.cs" />
+    <Compile Include="Practice\38_Practice_healthbar.cs" />
+    <Compile Include="Practice\40_Practice_PacMan.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Lessons\11_console_command.cs" />
