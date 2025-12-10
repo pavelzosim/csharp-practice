@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{38FB22AB-FFDD-4677-8005-2986EE9A4A5E}|csharp-learn.csproj|solutionrelative:practice\\40_practice_pacman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38FB22AB-FFDD-4677-8005-2986EE9A4A5E}|csharp-learn.csproj|e:\\scripts\\csharp-practice\\csharp-learn\\practice\\17_practice_switch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{38FB22AB-FFDD-4677-8005-2986EE9A4A5E}|csharp-learn.csproj|E:\\Scripts\\Csharp-Practice\\csharp-learn\\practice\\17_practice_switch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{38FB22AB-FFDD-4677-8005-2986EE9A4A5E}|csharp-learn.csproj|solutionrelative:practice\\17_practice_switch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -15,7 +15,7 @@
       "RelativeMoniker": "D:0:0:{38FB22AB-FFDD-4677-8005-2986EE9A4A5E}|csharp-learn.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38FB22AB-FFDD-4677-8005-2986EE9A4A5E}|csharp-learn.csproj|e:\\scripts\\csharp-practice\\csharp-learn\\practice\\38_practice_healthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{38FB22AB-FFDD-4677-8005-2986EE9A4A5E}|csharp-learn.csproj|E:\\Scripts\\Csharp-Practice\\csharp-learn\\practice\\38_practice_healthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{38FB22AB-FFDD-4677-8005-2986EE9A4A5E}|csharp-learn.csproj|solutionrelative:practice\\38_practice_healthbar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -27,11 +27,11 @@
       "RelativeMoniker": "D:0:0:{38FB22AB-FFDD-4677-8005-2986EE9A4A5E}|csharp-learn.csproj|solutionrelative:practice\\31_practice_game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38FB22AB-FFDD-4677-8005-2986EE9A4A5E}|csharp-learn.csproj|e:\\scripts\\csharp-practice\\csharp-learn\\lessons\\38_method_overloading .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{38FB22AB-FFDD-4677-8005-2986EE9A4A5E}|csharp-learn.csproj|E:\\Scripts\\Csharp-Practice\\csharp-learn\\lessons\\38_method_overloading .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{38FB22AB-FFDD-4677-8005-2986EE9A4A5E}|csharp-learn.csproj|solutionrelative:lessons\\38_method_overloading .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38FB22AB-FFDD-4677-8005-2986EE9A4A5E}|csharp-learn.csproj|e:\\scripts\\csharp-practice\\csharp-learn\\lessons\\37_ref_out.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{38FB22AB-FFDD-4677-8005-2986EE9A4A5E}|csharp-learn.csproj|E:\\Scripts\\Csharp-Practice\\csharp-learn\\lessons\\37_ref_out.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{38FB22AB-FFDD-4677-8005-2986EE9A4A5E}|csharp-learn.csproj|solutionrelative:lessons\\37_ref_out.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -81,8 +81,7 @@
               "RelativeToolTip": "Practice\\17_Practice_switch.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T15:26:32.24Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-09T15:26:32.24Z"
             },
             {
               "$type": "Document",
@@ -92,7 +91,7 @@
               "RelativeDocumentMoniker": "Practice\\40_Practice_PacMan.cs",
               "ToolTip": "E:\\Scripts\\Csharp-Practice\\csharp-learn\\Practice\\40_Practice_PacMan.cs",
               "RelativeToolTip": "Practice\\40_Practice_PacMan.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAowD0AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAABAAAAAAAAAAAwwDYBAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-09T12:20:14.076Z",
               "EditorCaption": ""
@@ -107,8 +106,7 @@
               "RelativeToolTip": "Practice\\38_Practice_healthbar.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T11:10:00.125Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-09T11:10:00.125Z"
             },
             {
               "$type": "Document",
@@ -120,8 +118,7 @@
               "RelativeToolTip": "Lessons\\38_method_overloading .cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-09T11:06:53.791Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-09T11:06:53.791Z"
             },
             {
               "$type": "Document",
@@ -133,8 +130,7 @@
               "RelativeToolTip": "Practice\\28_Practice_matrixes_libraries.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T14:48:45.534Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-28T14:48:45.534Z"
             },
             {
               "$type": "Document",
@@ -146,8 +142,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwBwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T12:44:06.312Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-28T12:44:06.312Z"
             },
             {
               "$type": "Document",
@@ -159,8 +154,7 @@
               "RelativeToolTip": "Lessons\\37_ref_out.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-05T12:45:07.337Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-05T12:45:07.337Z"
             },
             {
               "$type": "Document",
@@ -172,8 +166,7 @@
               "RelativeToolTip": "Practice\\31_Practice_Game.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-04T10:38:20.973Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-04T10:38:20.973Z"
             },
             {
               "$type": "Document",
