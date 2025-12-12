@@ -3,9 +3,9 @@ using System.Text;
 
 namespace csharp_learn
 {
-    // LESSON 11: Console Input and Output
+    // LESSON 04: Console Input and Output
     // Learn how to read user input, display output, and control console appearance
-    internal class Lesson11_console_command
+    internal class Lesson04_console_command
     {
         public static void Run()
         {

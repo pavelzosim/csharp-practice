@@ -2,9 +2,9 @@
 
 namespace csharp_learn
 {
-    // LESSON 18: For Loops
+    // LESSON 09: For Loops
     // Learn how to use for loops when the number of iterations is known
-    internal class Lesson18_for
+    internal class Lesson09_loops_for
     {
         public static void Run()
         {

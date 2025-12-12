@@ -2,9 +2,9 @@
 
 namespace csharp_learn
 {
-    // LESSON 18: While Loops
+    // LESSON 10: While Loops
     // Learn how to repeat code while a condition is true
-    internal class Lesson18_while
+    internal class Lesson10_loops_while
     {
         public static void Run()
         {

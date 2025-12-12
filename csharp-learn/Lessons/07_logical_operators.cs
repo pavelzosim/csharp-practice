@@ -2,9 +2,9 @@
 
 namespace csharp_learn
 {
-    // LESSON 15: Logical Operators
+    // LESSON 07: Logical Operators
     // Learn how to combine multiple conditions using AND (&&), OR (||), and NOT (!)
-    internal class Lesson15_logical_operators
+    internal class Lesson07_logical_operators
     {
         public static void Run()
         {

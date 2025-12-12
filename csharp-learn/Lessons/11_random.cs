@@ -2,9 +2,9 @@
 
 namespace csharp_learn
 {
-    // LESSON 19: Random Number Generation
+    // LESSON 11: Random Number Generation
     // Learn how to generate random numbers for games, simulations, and randomized behavior
-    internal class Lesson19_random
+    internal class Lesson11_random
     {
         public static void Run()
         {

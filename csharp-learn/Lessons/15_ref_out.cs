@@ -2,9 +2,9 @@
 
 namespace csharp_learn
 {
-    // LESSON 37: Ref and Out Parameters
+    // LESSON 15: Ref and Out Parameters
     // Learn how to pass variables by reference and return multiple values from functions
-    internal class Lesson37_ref_out
+    internal class Lesson15_ref_out
     {
         public static void Run()
         {

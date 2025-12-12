@@ -2,9 +2,9 @@
 
 namespace csharp_learn.Lessons
 {
-    // LESSON 38: Method Overloading
+    // LESSON 16: Method Overloading
     // Learn how to create multiple functions with the same name but different parameters
-    internal class Lesson38t_method_overloading
+    internal class Lesson16_method_overloading
     {
         public static void Run()
         {

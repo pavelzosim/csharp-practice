@@ -2,9 +2,9 @@
 
 namespace csharp_learn
 {
-    // LESSON 34: Functions (Methods)
+    // LESSON 14: Functions (Methods)
     // Learn how to organize code into reusable blocks with parameters and return values
-    internal class Lesson34_functions
+    internal class Lesson14_functions
     {
         public static void Run()
         {

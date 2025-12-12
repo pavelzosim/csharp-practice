@@ -2,9 +2,9 @@
 
 namespace csharp_learn
 {
-    // LESSON 27: Multidimensional Arrays (Matrices)
+    // LESSON 13: Multidimensional Arrays (Matrices)
     // Learn how to work with 2D arrays (matrices) for grids, maps, and tables
-    internal class Lesson27_arrays_matrix
+    internal class Lesson13_arrays_matrix
     {
         public static void Run()
         {

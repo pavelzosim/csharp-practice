@@ -2,9 +2,9 @@
 
 namespace csharp_learn
 {
-    // LESSON 25: Arrays
+    // LESSON 12: Arrays
     // Learn how to store multiple values of the same type in a single variable
-    internal class Lesson25_arrays
+    internal class Lesson12_arrays
     {
         public static void Run()
         {
