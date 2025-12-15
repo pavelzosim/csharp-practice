@@ -31,7 +31,7 @@ using System.Threading.Tasks; // For Task.Run to handle async key input
 
 namespace csharp_learn
 {
-    internal class Practice40_PacMan
+    internal class Practice12_PacMan
     {
         public static void Run()
         {

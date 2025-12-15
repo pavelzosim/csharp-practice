@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "E:\\Scripts\\Csharp-Practice\\csharp-learn\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{38FB22AB-FFDD-4677-8005-2986EE9A4A5E}|csharp-learn.csproj|e:\\scripts\\csharp-practice\\csharp-learn\\lessons\\23_methods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38FB22AB-FFDD-4677-8005-2986EE9A4A5E}|csharp-learn.csproj|solutionrelative:lessons\\23_methods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38FB22AB-FFDD-4677-8005-2986EE9A4A5E}|csharp-learn.csproj|e:\\scripts\\csharp-practice\\csharp-learn\\lessons\\22_fields_access_modificators.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38FB22AB-FFDD-4677-8005-2986EE9A4A5E}|csharp-learn.csproj|solutionrelative:lessons\\22_fields_access_modificators.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{38FB22AB-FFDD-4677-8005-2986EE9A4A5E}|csharp-learn.csproj|e:\\scripts\\csharp-practice\\csharp-learn\\lessons\\21_classes_and_objects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38FB22AB-FFDD-4677-8005-2986EE9A4A5E}|csharp-learn.csproj|solutionrelative:lessons\\21_classes_and_objects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{38FB22AB-FFDD-4677-8005-2986EE9A4A5E}|csharp-learn.csproj|e:\\scripts\\csharp-practice\\csharp-learn\\lessons\\25_has_a_composition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38FB22AB-FFDD-4677-8005-2986EE9A4A5E}|csharp-learn.csproj|solutionrelative:lessons\\25_has_a_composition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,40 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "23_methods.cs",
-              "DocumentMoniker": "E:\\Scripts\\Csharp-Practice\\csharp-learn\\Lessons\\23_methods.cs",
-              "RelativeDocumentMoniker": "Lessons\\23_methods.cs",
-              "ToolTip": "E:\\Scripts\\Csharp-Practice\\csharp-learn\\Lessons\\23_methods.cs",
-              "RelativeToolTip": "Lessons\\23_methods.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAM8DAAABAAAAAAAAAA==",
+              "Title": "25_has_a_composition.cs",
+              "DocumentMoniker": "E:\\Scripts\\Csharp-Practice\\csharp-learn\\Lessons\\25_has_a_composition.cs",
+              "RelativeDocumentMoniker": "Lessons\\25_has_a_composition.cs",
+              "ToolTip": "E:\\Scripts\\Csharp-Practice\\csharp-learn\\Lessons\\25_has_a_composition.cs",
+              "RelativeToolTip": "Lessons\\25_has_a_composition.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T11:40:23.371Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "22_fields_access_modificators.cs",
-              "DocumentMoniker": "E:\\Scripts\\Csharp-Practice\\csharp-learn\\Lessons\\22_fields_access_modificators.cs",
-              "RelativeDocumentMoniker": "Lessons\\22_fields_access_modificators.cs",
-              "ToolTip": "E:\\Scripts\\Csharp-Practice\\csharp-learn\\Lessons\\22_fields_access_modificators.cs",
-              "RelativeToolTip": "Lessons\\22_fields_access_modificators.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T11:34:55.603Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "21_classes_and_objects.cs",
-              "DocumentMoniker": "E:\\Scripts\\Csharp-Practice\\csharp-learn\\Lessons\\21_classes_and_objects.cs",
-              "RelativeDocumentMoniker": "Lessons\\21_classes_and_objects.cs",
-              "ToolTip": "E:\\Scripts\\Csharp-Practice\\csharp-learn\\Lessons\\21_classes_and_objects.cs",
-              "RelativeToolTip": "Lessons\\21_classes_and_objects.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T11:07:53.357Z",
+              "WhenOpened": "2025-12-15T11:54:00.554Z",
               "EditorCaption": ""
             },
             {

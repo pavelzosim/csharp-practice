@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "E:\\Scripts\\Csharp-Practice\\csharp-learn\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{38FB22AB-FFDD-4677-8005-2986EE9A4A5E}|csharp-learn.csproj|e:\\scripts\\csharp-practice\\csharp-learn\\lessons\\19_filo_collection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38FB22AB-FFDD-4677-8005-2986EE9A4A5E}|csharp-learn.csproj|solutionrelative:lessons\\19_filo_collection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{38FB22AB-FFDD-4677-8005-2986EE9A4A5E}|csharp-learn.csproj|e:\\scripts\\csharp-practice\\csharp-learn\\practice\\13_practice_cafeadministrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38FB22AB-FFDD-4677-8005-2986EE9A4A5E}|csharp-learn.csproj|solutionrelative:practice\\13_practice_cafeadministrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38FB22AB-FFDD-4677-8005-2986EE9A4A5E}|csharp-learn.csproj|e:\\scripts\\csharp-practice\\csharp-learn\\lessons\\18_fifo_collection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38FB22AB-FFDD-4677-8005-2986EE9A4A5E}|csharp-learn.csproj|solutionrelative:lessons\\18_fifo_collection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{38FB22AB-FFDD-4677-8005-2986EE9A4A5E}|csharp-learn.csproj|e:\\scripts\\csharp-practice\\csharp-learn\\lessons\\24_method_constructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38FB22AB-FFDD-4677-8005-2986EE9A4A5E}|csharp-learn.csproj|solutionrelative:lessons\\24_method_constructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38FB22AB-FFDD-4677-8005-2986EE9A4A5E}|csharp-learn.csproj|e:\\scripts\\csharp-practice\\csharp-learn\\lessons\\17_collection_list.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38FB22AB-FFDD-4677-8005-2986EE9A4A5E}|csharp-learn.csproj|solutionrelative:lessons\\17_collection_list.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{38FB22AB-FFDD-4677-8005-2986EE9A4A5E}|csharp-learn.csproj|e:\\scripts\\csharp-practice\\csharp-learn\\lessons\\22_fields_access_modificators.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38FB22AB-FFDD-4677-8005-2986EE9A4A5E}|csharp-learn.csproj|solutionrelative:lessons\\22_fields_access_modificators.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38FB22AB-FFDD-4677-8005-2986EE9A4A5E}|csharp-learn.csproj|E:\\Scripts\\Csharp-Practice\\csharp-learn\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{38FB22AB-FFDD-4677-8005-2986EE9A4A5E}|csharp-learn.csproj|e:\\scripts\\csharp-practice\\csharp-learn\\lessons\\21_classes_and_objects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38FB22AB-FFDD-4677-8005-2986EE9A4A5E}|csharp-learn.csproj|solutionrelative:lessons\\21_classes_and_objects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38FB22AB-FFDD-4677-8005-2986EE9A4A5E}|csharp-learn.csproj|e:\\scripts\\csharp-practice\\csharp-learn\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{38FB22AB-FFDD-4677-8005-2986EE9A4A5E}|csharp-learn.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38FB22AB-FFDD-4677-8005-2986EE9A4A5E}|csharp-learn.csproj|e:\\scripts\\csharp-practice\\csharp-learn\\practice\\12_practice_pacman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38FB22AB-FFDD-4677-8005-2986EE9A4A5E}|csharp-learn.csproj|solutionrelative:practice\\12_practice_pacman.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,63 +34,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "19_FILO_collection.cs",
-              "DocumentMoniker": "E:\\Scripts\\Csharp-Practice\\csharp-learn\\Lessons\\19_FILO_collection.cs",
-              "RelativeDocumentMoniker": "Lessons\\19_FILO_collection.cs",
-              "ToolTip": "E:\\Scripts\\Csharp-Practice\\csharp-learn\\Lessons\\19_FILO_collection.cs",
-              "RelativeToolTip": "Lessons\\19_FILO_collection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAArAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "22_fields_access_modificators.cs",
+              "DocumentMoniker": "E:\\Scripts\\Csharp-Practice\\csharp-learn\\Lessons\\22_fields_access_modificators.cs",
+              "RelativeDocumentMoniker": "Lessons\\22_fields_access_modificators.cs",
+              "ToolTip": "E:\\Scripts\\Csharp-Practice\\csharp-learn\\Lessons\\22_fields_access_modificators.cs",
+              "RelativeToolTip": "Lessons\\22_fields_access_modificators.cs",
+              "ViewState": "AgIAAEgCAAAAAAAAAADgvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T10:34:52.162Z",
+              "WhenOpened": "2025-12-15T11:48:21.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "21_classes_and_objects.cs",
+              "DocumentMoniker": "E:\\Scripts\\Csharp-Practice\\csharp-learn\\Lessons\\21_classes_and_objects.cs",
+              "RelativeDocumentMoniker": "Lessons\\21_classes_and_objects.cs",
+              "ToolTip": "E:\\Scripts\\Csharp-Practice\\csharp-learn\\Lessons\\21_classes_and_objects.cs",
+              "RelativeToolTip": "Lessons\\21_classes_and_objects.cs",
+              "ViewState": "AgIAADcCAAAAAAAAAADgvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T11:47:29.169Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "18_FIFO_collection.cs",
-              "DocumentMoniker": "E:\\Scripts\\Csharp-Practice\\csharp-learn\\Lessons\\18_FIFO_collection.cs",
-              "RelativeDocumentMoniker": "Lessons\\18_FIFO_collection.cs",
-              "ToolTip": "E:\\Scripts\\Csharp-Practice\\csharp-learn\\Lessons\\18_FIFO_collection.cs",
-              "RelativeToolTip": "Lessons\\18_FIFO_collection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "24_method_constructor.cs",
+              "DocumentMoniker": "E:\\Scripts\\Csharp-Practice\\csharp-learn\\Lessons\\24_method_constructor.cs",
+              "RelativeDocumentMoniker": "Lessons\\24_method_constructor.cs",
+              "ToolTip": "E:\\Scripts\\Csharp-Practice\\csharp-learn\\Lessons\\24_method_constructor.cs",
+              "RelativeToolTip": "Lessons\\24_method_constructor.cs",
+              "ViewState": "AgIAALkCAAAAAAAAAAAuwOoCAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T10:23:52.389Z",
+              "WhenOpened": "2025-12-15T11:46:27.19Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "17_collection_list.cs",
-              "DocumentMoniker": "E:\\Scripts\\Csharp-Practice\\csharp-learn\\Lessons\\17_collection_list.cs",
-              "RelativeDocumentMoniker": "Lessons\\17_collection_list.cs",
-              "ToolTip": "E:\\Scripts\\Csharp-Practice\\csharp-learn\\Lessons\\17_collection_list.cs",
-              "RelativeToolTip": "Lessons\\17_collection_list.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-12T10:23:16.08Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\Scripts\\Csharp-Practice\\csharp-learn\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "E:\\Scripts\\Csharp-Practice\\csharp-learn\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T12:44:06.312Z",
+              "WhenOpened": "2025-12-15T11:07:59.155Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "12_Practice_PacMan.cs",
+              "DocumentMoniker": "E:\\Scripts\\Csharp-Practice\\csharp-learn\\Practice\\12_Practice_PacMan.cs",
+              "RelativeDocumentMoniker": "Practice\\12_Practice_PacMan.cs",
+              "ToolTip": "E:\\Scripts\\Csharp-Practice\\csharp-learn\\Practice\\12_Practice_PacMan.cs",
+              "RelativeToolTip": "Practice\\12_Practice_PacMan.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T10:52:07.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "13_Practice_CafeAdministrator.cs",
+              "DocumentMoniker": "E:\\Scripts\\Csharp-Practice\\csharp-learn\\Practice\\13_Practice_CafeAdministrator.cs",
+              "RelativeDocumentMoniker": "Practice\\13_Practice_CafeAdministrator.cs",
+              "ToolTip": "E:\\Scripts\\Csharp-Practice\\csharp-learn\\Practice\\13_Practice_CafeAdministrator.cs",
+              "RelativeToolTip": "Practice\\13_Practice_CafeAdministrator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-15T10:52:43.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             }
           ]
         }

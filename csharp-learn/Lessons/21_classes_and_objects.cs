@@ -404,221 +404,219 @@ namespace csharp_learn.Lessons
             Console.WriteLine("• Encapsulation (hiding internal details)");
             Console.WriteLine("• Inheritance (creating specialized classes)");
         }
-    }
 
-    // ===== CLASS DEFINITIONS =====
-
-    // Simple Person class
-    class Person
-    {
-        // Properties (data/attributes)
-        public string Name;
-        public int Age;
-        public bool IsAlive;
-
-        // Methods (behavior/actions)
-        public void Introduce()
+        // ВСЕ классы переместить ВНУТРЬ
+        class Person
         {
-            Console.WriteLine($"Hi, I'm {Name} and I'm {Age} years old.");
-        }
+            // Properties (data/attributes)
+            public string Name;
+            public int Age;
+            public bool IsAlive;
 
-        public void HaveBirthday()
-        {
-            Age++;
-            Console.WriteLine($"{Name} had a birthday! Now {Age} years old.");
-        }
-    }
-
-    // Car class
-    class Car
-    {
-        // Properties
-        public string Brand;
-        public string Model;
-        public int Year;
-        public int Speed;
-
-        // Methods
-        public void DisplayInfo()
-        {
-            Console.WriteLine($"Car: {Year} {Brand} {Model}, Speed: {Speed} km/h");
-        }
-
-        public void Accelerate(int increase)
-        {
-            Speed += increase;
-            Console.WriteLine($"{Brand} {Model} accelerated! Speed: {Speed} km/h");
-        }
-
-        public void Brake(int decrease)
-        {
-            Speed -= decrease;
-            if (Speed < 0) Speed = 0;
-            Console.WriteLine($"{Brand} {Model} braked! Speed: {Speed} km/h");
-        }
-    }
-
-    // Player class (game dev)
-    class Player
-    {
-        // Properties
-        public string Name;
-        public int Health;
-        public int MaxHealth = 100;
-        public int Level;
-        public int Experience;
-
-        // Methods
-        public void ShowStats()
-        {
-            Console.WriteLine($"=== {Name} ===");
-            Console.WriteLine($"Level: {Level}");
-            Console.WriteLine($"Health: {Health}/{MaxHealth}");
-            Console.WriteLine($"Experience: {Experience}");
-        }
-
-        public void TakeDamage(int damage)
-        {
-            Health -= damage;
-            if (Health < 0) Health = 0;
-            Console.WriteLine($"{Name} took {damage} damage! Health: {Health}/{MaxHealth}");
-
-            if (Health == 0)
+            // Methods (behavior/actions)
+            public void Introduce()
             {
-                Console.WriteLine($"{Name} has been defeated!");
+                Console.WriteLine($"Hi, I'm {Name} and I'm {Age} years old.");
+            }
+
+            public void HaveBirthday()
+            {
+                Age++;
+                Console.WriteLine($"{Name} had a birthday! Now {Age} years old.");
             }
         }
 
-        public void Heal(int amount)
+        // Car class
+        class Car
         {
-            Health += amount;
-            if (Health > MaxHealth) Health = MaxHealth;
-            Console.WriteLine($"{Name} healed {amount} HP! Health: {Health}/{MaxHealth}");
-        }
+            // Properties
+            public string Brand;
+            public string Model;
+            public int Year;
+            public int Speed;
 
-        public void GainExperience(int xp)
-        {
-            Experience += xp;
-            Console.WriteLine($"{Name} gained {xp} XP! Total XP: {Experience}");
-
-            // Level up at 100 XP
-            if (Experience >= 100)
+            // Methods
+            public void DisplayInfo()
             {
-                Level++;
-                Experience = 0;
-                MaxHealth += 10;
-                Health = MaxHealth;
-                Console.WriteLine($"🎉 {Name} leveled up to Level {Level}! Max Health increased!");
+                Console.WriteLine($"Car: {Year} {Brand} {Model}, Speed: {Speed} km/h");
+            }
+
+            public void Accelerate(int increase)
+            {
+                Speed += increase;
+                Console.WriteLine($"{Brand} {Model} accelerated! Speed: {Speed} km/h");
+            }
+
+            public void Brake(int decrease)
+            {
+                Speed -= decrease;
+                if (Speed < 0) Speed = 0;
+                Console.WriteLine($"{Brand} {Model} braked! Speed: {Speed} km/h");
             }
         }
-    }
 
-    // Enemy class
-    class Enemy
-    {
-        // Properties
-        public string Name;
-        public int Health;
-        public int Damage;
-
-        // Methods
-        public void DisplayInfo()
+        // Player class (game dev)
+        class Player
         {
-            Console.WriteLine($"Enemy: {Name} (HP: {Health}, Damage: {Damage})");
-        }
+            // Properties
+            public string Name;
+            public int Health;
+            public int MaxHealth = 100;
+            public int Level;
+            public int Experience;
 
-        public void Attack(string target)
-        {
-            Console.WriteLine($"{Name} attacks {target} for {Damage} damage!");
-        }
-    }
-
-    // Weapon class
-    class Weapon
-    {
-        // Properties
-        public string Name;
-        public int Damage;
-        public int Durability;
-
-        // Methods
-        public void DisplayInfo()
-        {
-            Console.WriteLine($"Weapon: {Name} (Damage: {Damage}, Durability: {Durability}%)");
-        }
-
-        public void Use()
-        {
-            if (Durability > 0)
+            // Methods
+            public void ShowStats()
             {
-                Durability -= 10;
-                Console.WriteLine($"Used {Name}! Durability: {Durability}%");
+                Console.WriteLine($"=== {Name} ===");
+                Console.WriteLine($"Level: {Level}");
+                Console.WriteLine($"Health: {Health}/{MaxHealth}");
+                Console.WriteLine($"Experience: {Experience}");
+            }
 
-                if (Durability <= 0)
+            public void TakeDamage(int damage)
+            {
+                Health -= damage;
+                if (Health < 0) Health = 0;
+                Console.WriteLine($"{Name} took {damage} damage! Health: {Health}/{MaxHealth}");
+
+                if (Health == 0)
                 {
-                    Console.WriteLine($"{Name} is broken!");
+                    Console.WriteLine($"{Name} has been defeated!");
                 }
             }
-            else
+
+            public void Heal(int amount)
             {
-                Console.WriteLine($"{Name} is broken and cannot be used!");
+                Health += amount;
+                if (Health > MaxHealth) Health = MaxHealth;
+                Console.WriteLine($"{Name} healed {amount} HP! Health: {Health}/{MaxHealth}");
+            }
+
+            public void GainExperience(int xp)
+            {
+                Experience += xp;
+                Console.WriteLine($"{Name} gained {xp} XP! Total XP: {Experience}");
+
+                // Level up at 100 XP
+                if (Experience >= 100)
+                {
+                    Level++;
+                    Experience = 0;
+                    MaxHealth += 10;
+                    Health = MaxHealth;
+                    Console.WriteLine($"🎉 {Name} leveled up to Level {Level}! Max Health increased!");
+                }
             }
         }
 
-        public void Repair(int amount)
+        // Enemy class
+        class Enemy
         {
-            Durability += amount;
-            if (Durability > 100) Durability = 100;
-            Console.WriteLine($"Repaired {Name}! Durability: {Durability}%");
-        }
-    }
+            // Properties
+            public string Name;
+            public int Health;
+            public int Damage;
 
-    // Item class
-    class Item
-    {
-        // Properties
-        public string Name;
-        public int Quantity;
-        public float Price;
-
-        // Methods
-        public void DisplayInfo()
-        {
-            Console.WriteLine($"  {Name} x{Quantity} (${Price:F2} each)");
-        }
-    }
-
-    // BankAccount class
-    class BankAccount
-    {
-        // Properties
-        public string AccountNumber;
-        public string Owner;
-        public float Balance;
-
-        // Methods
-        public void DisplayBalance()
-        {
-            Console.WriteLine($"Account: {AccountNumber} ({Owner})");
-            Console.WriteLine($"Balance: ${Balance:F2}");
-        }
-
-        public void Deposit(float amount)
-        {
-            Balance += amount;
-            Console.WriteLine($"Deposited ${amount:F2}. New balance: ${Balance:F2}");
-        }
-
-        public void Withdraw(float amount)
-        {
-            if (amount <= Balance)
+            // Methods
+            public void DisplayInfo()
             {
-                Balance -= amount;
-                Console.WriteLine($"Withdrew ${amount:F2}. New balance: ${Balance:F2}");
+                Console.WriteLine($"Enemy: {Name} (HP: {Health}, Damage: {Damage})");
             }
-            else
+
+            public void Attack(string target)
             {
-                Console.WriteLine($"Insufficient funds! Balance: ${Balance:F2}, Requested: ${amount:F2}");
+                Console.WriteLine($"{Name} attacks {target} for {Damage} damage!");
+            }
+        }
+
+        // Weapon class
+        class Weapon
+        {
+            // Properties
+            public string Name;
+            public int Damage;
+            public int Durability;
+
+            // Methods
+            public void DisplayInfo()
+            {
+                Console.WriteLine($"Weapon: {Name} (Damage: {Damage}, Durability: {Durability}%)");
+            }
+
+            public void Use()
+            {
+                if (Durability > 0)
+                {
+                    Durability -= 10;
+                    Console.WriteLine($"Used {Name}! Durability: {Durability}%");
+
+                    if (Durability <= 0)
+                    {
+                        Console.WriteLine($"{Name} is broken!");
+                    }
+                }
+                else
+                {
+                    Console.WriteLine($"{Name} is broken and cannot be used!");
+                }
+            }
+
+            public void Repair(int amount)
+            {
+                Durability += amount;
+                if (Durability > 100) Durability = 100;
+                Console.WriteLine($"Repaired {Name}! Durability: {Durability}%");
+            }
+        }
+
+        // Item class
+        class Item
+        {
+            // Properties
+            public string Name;
+            public int Quantity;
+            public float Price;
+
+            // Methods
+            public void DisplayInfo()
+            {
+                Console.WriteLine($"  {Name} x{Quantity} (${Price:F2} each)");
+            }
+        }
+
+        // BankAccount class
+        class BankAccount
+        {
+            // Properties
+            public string AccountNumber;
+            public string Owner;
+            public float Balance;
+
+            // Methods
+            public void DisplayBalance()
+            {
+                Console.WriteLine($"Account: {AccountNumber} ({Owner})");
+                Console.WriteLine($"Balance: ${Balance:F2}");
+            }
+
+            public void Deposit(float amount)
+            {
+                Balance += amount;
+                Console.WriteLine($"Deposited ${amount:F2}. New balance: ${Balance:F2}");
+            }
+
+            public void Withdraw(float amount)
+            {
+                if (amount <= Balance)
+                {
+                    Balance -= amount;
+                    Console.WriteLine($"Withdrew ${amount:F2}. New balance: ${Balance:F2}");
+                }
+                else
+                {
+                    Console.WriteLine($"Insufficient funds! Balance: ${Balance:F2}, Requested: ${amount:F2}");
+                }
             }
         }
     }

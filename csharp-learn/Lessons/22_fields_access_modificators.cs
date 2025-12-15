@@ -374,348 +374,345 @@ namespace csharp_learn.Lessons
             Console.WriteLine("• Auto-properties (shorthand for simple properties)");
             Console.WriteLine("• Property validation and computed properties");
         }
-    }
 
-    // ===== EXAMPLE CLASSES =====
-
-    // ❌ BAD: Public fields (no protection)
-    class PublicPlayer
-    {
-        public string Name;
-        public int Health;
-        public int Level;
-
-        public void ShowStats()
+        // Классы внутри
+        class PublicPlayer
         {
-            Console.WriteLine($"Name: {Name}, Health: {Health}, Level: {Level}");
-        }
-    }
+            public string Name;
+            public int Health;
+            public int Level;
 
-    // ✅ GOOD: Private fields + public methods (protected)
-    class ProtectedPlayer
-    {
-        // Private fields (hidden from outside)
-        private string _name;
-        private int _health;
-        private int _maxHealth;
-        private int _level;
-
-        // Constructor to initialize
-        public ProtectedPlayer(string name, int health, int level)
-        {
-            _name = name;
-            _health = health;
-            _maxHealth = health;
-            _level = level;
-        }
-
-        // Public method to display stats
-        public void ShowStats()
-        {
-            Console.WriteLine($"Name: {_name}, Health: {_health}/{_maxHealth}, Level: {_level}");
-        }
-
-        // Public method with validation
-        public void TakeDamage(int damage)
-        {
-            if (damage < 0)
+            public void ShowStats()
             {
-                Console.WriteLine("Cannot take negative damage!");
-                return;
-            }
-
-            _health -= damage;
-            if (_health < 0) _health = 0;
-            Console.WriteLine($"{_name} took {damage} damage. Health: {_health}/{_maxHealth}");
-        }
-
-        // Public method to set level with validation
-        public void SetLevel(int level)
-        {
-            if (level < 1 || level > 100)
-            {
-                Console.WriteLine($"Invalid level {level}! Must be between 1 and 100.");
-                return;
-            }
-
-            _level = level;
-            Console.WriteLine($"{_name} is now level {_level}");
-        }
-    }
-
-    // Bank Account example
-    class BankAccount
-    {
-        // Private fields
-        private string _owner;
-        private float _balance;
-
-        // Constructor
-        public BankAccount(string owner, float initialBalance)
-        {
-            _owner = owner;
-            _balance = initialBalance;
-        }
-
-        // Public methods (controlled access)
-        public void DisplayInfo()
-        {
-            Console.WriteLine($"Account Owner: {_owner}");
-            Console.WriteLine($"Balance: ${_balance:F2}");
-        }
-
-        public void Deposit(float amount)
-        {
-            if (amount <= 0)
-            {
-                Console.WriteLine("Deposit amount must be positive!");
-                return;
-            }
-
-            _balance += amount;
-            Console.WriteLine($"Deposited ${amount:F2}. New balance: ${_balance:F2}");
-        }
-
-        public void Withdraw(float amount)
-        {
-            if (amount <= 0)
-            {
-                Console.WriteLine("Withdrawal amount must be positive!");
-                return;
-            }
-
-            if (amount > _balance)
-            {
-                Console.WriteLine($"Insufficient funds! Balance: ${_balance:F2}");
-                return;
-            }
-
-            _balance -= amount;
-            Console.WriteLine($"Withdrew ${amount:F2}. New balance: ${_balance:F2}");
-        }
-    }
-
-    // Player class (game dev)
-    class Player
-    {
-        // Private fields
-        private string _name;
-        private int _health;
-        private int _maxHealth;
-
-        // Constructor
-        public Player(string name, int maxHealth)
-        {
-            _name = name;
-            _maxHealth = maxHealth;
-            _health = maxHealth;
-        }
-
-        // Public methods
-        public void ShowStats()
-        {
-            Console.WriteLine($"Player: {_name}");
-            Console.WriteLine($"Health: {_health}/{_maxHealth}");
-        }
-
-        public void TakeDamage(int damage)
-        {
-            _health -= damage;
-            if (_health < 0) _health = 0;
-
-            Console.WriteLine($"{_name} took {damage} damage! Health: {_health}/{_maxHealth}");
-
-            if (_health == 0)
-            {
-                Console.WriteLine($"💀 {_name} has been defeated!");
+                Console.WriteLine($"Name: {Name}, Health: {Health}, Level: {Level}");
             }
         }
 
-        public void Heal(int amount)
+        class ProtectedPlayer
         {
-            if (_health == 0)
+            // Private fields (hidden from outside)
+            private string _name;
+            private int _health;
+            private int _maxHealth;
+            private int _level;
+
+            // Constructor to initialize
+            public ProtectedPlayer(string name, int health, int level)
             {
-                Console.WriteLine($"{_name} is dead and cannot be healed!");
-                return;
+                _name = name;
+                _health = health;
+                _maxHealth = health;
+                _level = level;
             }
 
-            _health += amount;
-            if (_health > _maxHealth) _health = _maxHealth;
-            Console.WriteLine($"{_name} healed {amount} HP! Health: {_health}/{_maxHealth}");
-        }
-    }
-
-    // Weapon class
-    class Weapon
-    {
-        private string _name;
-        private int _damage;
-        private int _durability;
-
-        public Weapon(string name, int damage, int durability)
-        {
-            _name = name;
-            _damage = damage;
-            _durability = durability;
-        }
-
-        public void DisplayInfo()
-        {
-            Console.WriteLine($"Weapon: {_name} (Damage: {_damage}, Durability: {_durability}%)");
-        }
-
-        public void Use()
-        {
-            if (_durability <= 0)
+            // Public method to display stats
+            public void ShowStats()
             {
-                Console.WriteLine($"{_name} is broken and cannot be used!");
-                return;
+                Console.WriteLine($"Name: {_name}, Health: {_health}/{_maxHealth}, Level: {_level}");
             }
 
-            _durability -= 10;
-            if (_durability < 0) _durability = 0;
-
-            Console.WriteLine($"Used {_name} for {_damage} damage! Durability: {_durability}%");
-
-            if (_durability == 0)
+            // Public method with validation
+            public void TakeDamage(int damage)
             {
-                Console.WriteLine($"⚠️ {_name} has broken!");
+                if (damage < 0)
+                {
+                    Console.WriteLine("Cannot take negative damage!");
+                    return;
+                }
+
+                _health -= damage;
+                if (_health < 0) _health = 0;
+                Console.WriteLine($"{_name} took {damage} damage. Health: {_health}/{_maxHealth}");
+            }
+
+            // Public method to set level with validation
+            public void SetLevel(int level)
+            {
+                if (level < 1 || level > 100)
+                {
+                    Console.WriteLine($"Invalid level {level}! Must be between 1 and 100.");
+                    return;
+                }
+
+                _level = level;
+                Console.WriteLine($"{_name} is now level {_level}");
             }
         }
 
-        public void Repair(int amount)
+        // Bank Account example
+        class BankAccount
         {
-            _durability += amount;
-            if (_durability > 100) _durability = 100;
-            Console.WriteLine($"Repaired {_name}! Durability: {_durability}%");
-        }
-    }
+            // Private fields
+            private string _owner;
+            private float _balance;
 
-    // Inventory Item class
-    class InventoryItem
-    {
-        private string _name;
-        private int _quantity;
-        private float _price;
-
-        public InventoryItem(string name, int quantity, float price)
-        {
-            _name = name;
-            _quantity = quantity;
-            _price = price;
-        }
-
-        public void DisplayInfo()
-        {
-            Console.WriteLine($"{_name} x{_quantity} (${_price:F2} each, Total: ${_quantity * _price:F2})");
-        }
-
-        public void Use(int amount)
-        {
-            if (amount > _quantity)
+            // Constructor
+            public BankAccount(string owner, float initialBalance)
             {
-                Console.WriteLine($"Not enough {_name}! Have {_quantity}, need {amount}");
-                return;
+                _owner = owner;
+                _balance = initialBalance;
             }
 
-            _quantity -= amount;
-            Console.WriteLine($"Used {amount} {_name}. Remaining: {_quantity}");
-        }
-
-        public void AddQuantity(int amount)
-        {
-            _quantity += amount;
-            Console.WriteLine($"Added {amount} {_name}. Total: {_quantity}");
-        }
-    }
-
-    // Enemy class with getters/setters
-    class Enemy
-    {
-        private string _name;
-        private int _health;
-        private int _damage;
-
-        public Enemy(string name, int health, int damage)
-        {
-            _name = name;
-            _health = health;
-            _damage = damage;
-        }
-
-        // Getter methods
-        public string GetName() { return _name; }
-        public int GetHealth() { return _health; }
-        public int GetDamage() { return _damage; }
-
-        // Setter methods with validation
-        public void SetHealth(int health)
-        {
-            if (health < 0)
+            // Public methods (controlled access)
+            public void DisplayInfo()
             {
-                Console.WriteLine("Health cannot be negative!");
-                return;
+                Console.WriteLine($"Account Owner: {_owner}");
+                Console.WriteLine($"Balance: ${_balance:F2}");
             }
-            _health = health;
-        }
 
-        public void SetDamage(int damage)
-        {
-            if (damage < 0)
+            public void Deposit(float amount)
             {
-                Console.WriteLine("Damage cannot be negative!");
-                return;
+                if (amount <= 0)
+                {
+                    Console.WriteLine("Deposit amount must be positive!");
+                    return;
+                }
+
+                _balance += amount;
+                Console.WriteLine($"Deposited ${amount:F2}. New balance: ${_balance:F2}");
             }
-            _damage = damage;
+
+            public void Withdraw(float amount)
+            {
+                if (amount <= 0)
+                {
+                    Console.WriteLine("Withdrawal amount must be positive!");
+                    return;
+                }
+
+                if (amount > _balance)
+                {
+                    Console.WriteLine($"Insufficient funds! Balance: ${_balance:F2}");
+                    return;
+                }
+
+                _balance -= amount;
+                Console.WriteLine($"Withdrew ${amount:F2}. New balance: ${_balance:F2}");
+            }
         }
 
-        public void DisplayInfo()
+        // Player class (game dev)
+        class Player
         {
-            Console.WriteLine($"Enemy: {_name} (HP: {_health}, Damage: {_damage})");
+            // Private fields
+            private string _name;
+            private int _health;
+            private int _maxHealth;
+
+            // Constructor
+            public Player(string name, int maxHealth)
+            {
+                _name = name;
+                _maxHealth = maxHealth;
+                _health = maxHealth;
+            }
+
+            // Public methods
+            public void ShowStats()
+            {
+                Console.WriteLine($"Player: {_name}");
+                Console.WriteLine($"Health: {_health}/{_maxHealth}");
+            }
+
+            public void TakeDamage(int damage)
+            {
+                _health -= damage;
+                if (_health < 0) _health = 0;
+
+                Console.WriteLine($"{_name} took {damage} damage! Health: {_health}/{_maxHealth}");
+
+                if (_health == 0)
+                {
+                    Console.WriteLine($"💀 {_name} has been defeated!");
+                }
+            }
+
+            public void Heal(int amount)
+            {
+                if (_health == 0)
+                {
+                    Console.WriteLine($"{_name} is dead and cannot be healed!");
+                    return;
+                }
+
+                _health += amount;
+                if (_health > _maxHealth) _health = _maxHealth;
+                Console.WriteLine($"{_name} healed {amount} HP! Health: {_health}/{_maxHealth}");
+            }
         }
-    }
 
-    // Readonly example
-    class GameConfig
-    {
-        // Readonly fields - can only be set in constructor
-        private readonly string _gameName;
-        private readonly string _version;
-
-        public GameConfig(string gameName, string version)
+        // Weapon class
+        class Weapon
         {
-            _gameName = gameName;
-            _version = version;
+            private string _name;
+            private int _damage;
+            private int _durability;
+
+            public Weapon(string name, int damage, int durability)
+            {
+                _name = name;
+                _damage = damage;
+                _durability = durability;
+            }
+
+            public void DisplayInfo()
+            {
+                Console.WriteLine($"Weapon: {_name} (Damage: {_damage}, Durability: {_durability}%)");
+            }
+
+            public void Use()
+            {
+                if (_durability <= 0)
+                {
+                    Console.WriteLine($"{_name} is broken and cannot be used!");
+                    return;
+                }
+
+                _durability -= 10;
+                if (_durability < 0) _durability = 0;
+
+                Console.WriteLine($"Used {_name} for {_damage} damage! Durability: {_durability}%");
+
+                if (_durability == 0)
+                {
+                    Console.WriteLine($"⚠️ {_name} has broken!");
+                }
+            }
+
+            public void Repair(int amount)
+            {
+                _durability += amount;
+                if (_durability > 100) _durability = 100;
+                Console.WriteLine($"Repaired {_name}! Durability: {_durability}%");
+            }
         }
 
-        public string GetGameName() { return _gameName; }
-        public string GetVersion() { return _version; }
-
-        public void DisplayInfo()
+        // Inventory Item class
+        class InventoryItem
         {
-            Console.WriteLine($"Game: {_gameName}");
-            Console.WriteLine($"Version: {_version}");
-            Console.WriteLine("(These values are readonly and cannot be changed)");
+            private string _name;
+            private int _quantity;
+            private float _price;
+
+            public InventoryItem(string name, int quantity, float price)
+            {
+                _name = name;
+                _quantity = quantity;
+                _price = price;
+            }
+
+            public void DisplayInfo()
+            {
+                Console.WriteLine($"{_name} x{_quantity} (${_price:F2} each, Total: ${_quantity * _price:F2})");
+            }
+
+            public void Use(int amount)
+            {
+                if (amount > _quantity)
+                {
+                    Console.WriteLine($"Not enough {_name}! Have {_quantity}, need {amount}");
+                    return;
+                }
+
+                _quantity -= amount;
+                Console.WriteLine($"Used {amount} {_name}. Remaining: {_quantity}");
+            }
+
+            public void AddQuantity(int amount)
+            {
+                _quantity += amount;
+                Console.WriteLine($"Added {amount} {_name}. Total: {_quantity}");
+            }
         }
-    }
 
-    // Constants example
-    class Constants
-    {
-        // Const - compile-time constants
-        public const int MAX_PLAYERS = 100;
-        public const float GRAVITY = 9.81f;
-        public const string GAME_VERSION = "1.0.0";
-
-        // Readonly - runtime constants
-        public readonly int MaxLevel = 100;
-
-        public static void DisplayConstants()
+        // Enemy class with getters/setters
+        class Enemy
         {
-            Console.WriteLine("Constants:");
-            Console.WriteLine($"  MAX_PLAYERS: {MAX_PLAYERS}");
-            Console.WriteLine($"  GRAVITY: {GRAVITY}");
-            Console.WriteLine($"  GAME_VERSION: {GAME_VERSION}");
+            private string _name;
+            private int _health;
+            private int _damage;
+
+            public Enemy(string name, int health, int damage)
+            {
+                _name = name;
+                _health = health;
+                _damage = damage;
+            }
+
+            // Getter methods
+            public string GetName() { return _name; }
+            public int GetHealth() { return _health; }
+            public int GetDamage() { return _damage; }
+
+            // Setter methods with validation
+            public void SetHealth(int health)
+            {
+                if (health < 0)
+                {
+                    Console.WriteLine("Health cannot be negative!");
+                    return;
+                }
+                _health = health;
+            }
+
+            public void SetDamage(int damage)
+            {
+                if (damage < 0)
+                {
+                    Console.WriteLine("Damage cannot be negative!");
+                    return;
+                }
+                _damage = damage;
+            }
+
+            public void DisplayInfo()
+            {
+                Console.WriteLine($"Enemy: {_name} (HP: {_health}, Damage: {_damage})");
+            }
+        }
+
+        // Readonly example
+        class GameConfig
+        {
+            // Readonly fields - can only be set in constructor
+            private readonly string _gameName;
+            private readonly string _version;
+
+            public GameConfig(string gameName, string version)
+            {
+                _gameName = gameName;
+                _version = version;
+            }
+
+            public string GetGameName() { return _gameName; }
+            public string GetVersion() { return _version; }
+
+            public void DisplayInfo()
+            {
+                Console.WriteLine($"Game: {_gameName}");
+                Console.WriteLine($"Version: {_version}");
+                Console.WriteLine("(These values are readonly and cannot be changed)");
+            }
+        }
+
+        // Constants example
+        class Constants
+        {
+            // Const - compile-time constants
+            public const int MAX_PLAYERS = 100;
+            public const float GRAVITY = 9.81f;
+            public const string GAME_VERSION = "1.0.0";
+
+            // Readonly - runtime constants
+            public readonly int MaxLevel = 100;
+
+            public static void DisplayConstants()
+            {
+                Console.WriteLine("Constants:");
+                Console.WriteLine($"  MAX_PLAYERS: {MAX_PLAYERS}");
+                Console.WriteLine($"  GRAVITY: {GRAVITY}");
+                Console.WriteLine($"  GAME_VERSION: {GAME_VERSION}");
+            }
         }
     }
 }

@@ -21,7 +21,7 @@ using System.Security.Authentication;
 
 namespace csharp_learn
 {
-    internal class Practice31_Practice_Game
+    internal class Practice10_Practice_Game
     {
         public static void Run()
         {

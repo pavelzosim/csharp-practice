@@ -3,7 +3,7 @@ using System.Security.Authentication;
 
 namespace csharp_learn
 {
-    internal class Practice26_array
+    internal class Practice07_array
     {
         public static void Run()
         {

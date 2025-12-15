@@ -3,7 +3,7 @@ using System.Security.Authentication;
 
 namespace csharp_learn
 {
-    internal class Practice17_switch
+    internal class Practice04_switch
     {
         public static void Run()
         {

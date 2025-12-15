@@ -1,4 +1,5 @@
 ﻿using csharp_learn.Lessons;
+using csharp_learn.Practice;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -23,8 +24,8 @@ namespace csharp_learn
             //Lesson34_functions.Run();
             //Practice38_Practice_Healthbar.Run();
             //Practice40_PacMan.Run();
-            Lesson17_collection_list.Run();
-
+            //Lesson17_collection_list.Run();
+            Practice13_CafeAdministrator.Run();
         }
     }
 }

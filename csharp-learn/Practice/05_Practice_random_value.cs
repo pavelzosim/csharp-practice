@@ -3,7 +3,7 @@ using System.Security.Authentication;
 
 namespace csharp_learn
 {
-    internal class Practice22_random_value
+    internal class Practice05_random_value
     {
         public static void Run()
         {

@@ -2,7 +2,7 @@
 
 namespace csharp_learn
 {
-    internal class Practice13_HeroDamage
+    internal class Practice01_HeroDamage
     {
         public static void Run()
         {

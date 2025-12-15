@@ -2,7 +2,7 @@
 
 namespace csharp_learn
 {
-    internal class Practice13_Shop
+    internal class Practice02_Shop
     {
         public static void Run()
         {
